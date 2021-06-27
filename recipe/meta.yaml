@@ -1,5 +1,5 @@
 {% set name = "mafredo" %}
-{% set version = "0.0.2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 6d6f42b6fc14bff93d201d34ec52bfbfc4270e7cb6b9ead102390546be3b6f65
+  sha256: 097db74a6ac5ede1e995c63d6f059ecac5f1b3aa207f24a53378a378a2263348
 
 build:
   number: 0
@@ -23,8 +23,9 @@ requirements:
   run:
     - python >=3.5
     - xarray
-    - netCDF4
     - scipy
+    - numpy
+    - pyyaml
     
 test:
   imports:
