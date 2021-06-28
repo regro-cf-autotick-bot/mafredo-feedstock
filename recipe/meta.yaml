@@ -37,7 +37,7 @@ about:
   license_family: MOZILLA
   license_file: LICENSE
   summary: "Marine Frequency Domain"
-  doc_url: https://open-ocean.org 
+  doc_url: https://mafredo.readthedocs.io/en/latest/ 
   dev_url: https://github.com/RubendeBruin/mafredo
 
 extra:
