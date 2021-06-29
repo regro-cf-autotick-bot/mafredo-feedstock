@@ -11,7 +11,7 @@ source:
   sha256: b4919085019b86972e971b0204b8e280a80ed4d23203dc3baeb21130ea81ec69
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -27,7 +27,7 @@ requirements:
     - scipy
     - numpy
     - pyyaml
-    - matplotlib
+    - matplotlib-base
     
 test:
   imports:
