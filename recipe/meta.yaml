@@ -1,13 +1,14 @@
 {% set name = "mafredo" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 097db74a6ac5ede1e995c63d6f059ecac5f1b3aa207f24a53378a378a2263348
+  # url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  url: https://files.pythonhosted.org/packages/71/8a/e87d1eae59111956a9f75400660393abaa064fb109835cbc39da20e902d3/MaFreDo-0.1.1.tar.gz  # hard-copied
+  sha256: b4919085019b86972e971b0204b8e280a80ed4d23203dc3baeb21130ea81ec69
 
 build:
   number: 0
