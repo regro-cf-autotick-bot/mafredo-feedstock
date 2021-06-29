@@ -27,6 +27,7 @@ requirements:
     - scipy
     - numpy
     - pyyaml
+    - matplotlib
     
 test:
   imports:
